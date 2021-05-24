@@ -88,21 +88,26 @@ background-blend-mode:lighten;
    display: inline-block;
    padding-bottom:100px;
    width:25%;
-   text-align: center;
+   
 }
 .menu img{
     width:50%;
     margin:0 auto;
-    height:20%;
     display: block;
+    height:150px;
+    margin-top:20px;
 }
 .menu a{
     display:block;
     font-size: 25px;
     border:1px solid silver;
     border-radius: 30px;
-   margin-right:5px;
+   text-align: center;
    background-color: white;
+    height:300px;
+   margin-right:5px;
+  
+   
     
 }
 .menu a:hover{
