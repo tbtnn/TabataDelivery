@@ -1,0 +1,299 @@
+header{
+    height:80px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+    background-color: white;
+    width:100%;
+    border-bottom: 1px solid silver;
+}
+span{
+    color:#4682B4;
+}
+.D{
+    color:#87CEEB;
+}
+
+
+header i{
+    padding:0px 20px;
+    display: inline-block;
+    font-size:30px;
+    line-height: 80px;
+
+}
+header h3{
+    font-size: 30px;
+    line-height: 80px;
+   display: inline-block;
+   margin:0px;
+}
+
+.top{
+    background-image: url("https://sozai.site/wp-content/uploads/2016/12/foodiesfeed.com_summer-family-barbeque-gathering.png");
+background-color:rgba(255,255,255,0.15);
+background-blend-mode:lighten;
+   background-size: cover;
+   height:600px;
+   width:100%;
+   margin-top:80px;
+}
+
+.top h1{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:45px;
+    padding-top:150px;
+    text-align: center;
+}
+.address-reseach{
+    width:60%;
+    height:50px;
+}
+.reseach{
+    text-align: center;
+    
+}
+.reseach i{
+    font-size: 30px;
+    height:50px;
+    
+}
+.reseach button{
+    width:20%;
+    height:50px;
+    font-size: 18px;
+}
+.menus-wrapper{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#F5F5F5 ;
+    padding-top:100px;
+   width:100%;
+}
+.menus{
+    
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
+    
+}
+.menus-wrapper h3{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.menu{
+  
+   float: left;
+   display: inline-block;
+   padding-bottom:100px;
+   width:25%;
+   text-align: center;
+}
+.menu img{
+    width:50%;
+    margin:0 auto;
+    height:20%;
+    display: block;
+}
+.menu a{
+    display:block;
+    font-size: 25px;
+    border:1px solid silver;
+    border-radius: 30px;
+   margin-right:5px;
+   background-color: white;
+    
+}
+.menu a:hover{
+    cursor: pointer;
+}
+.coupon-wrapper{
+    background-color: #F5F5F5;
+    padding-top:70px;
+    
+}
+.coupon{
+  width:60%;
+  margin-right:20%;
+  margin-left:20%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.coupon a{
+    width:100%;
+    height:50px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em 1em;
+    color:white;
+    background:#4682B4;
+    box-shadow: 10px 10px #B0C4DE;
+    border-radius: 9px;
+
+}
+.menus::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+ .coupon a:hover{
+     cursor: pointer;
+ }
+ .coupon a:active{
+     box-shadow: none;
+     position:relative;
+     top:7px;
+ }
+.app-wrapper{
+    background-color: #F5F5F5;
+    padding-top: 150px;
+    width:100%;
+    padding-bottom:30px;
+}
+.app{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background:white;
+    box-shadow: 0px 0px 0px 10px white;
+    border: dashed 2px silver;
+    width:70%;
+    margin-right:15%;
+    margin-left:15%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom:70px;
+    padding-top:50px;
+}
+.app h2{
+    font-size: 40px;
+}
+.app p{
+    margin: 0; 
+    padding: 0;
+    font-size: 30px;
+}
+.app-btn{
+    display: inline-block;
+}
+.apple {
+    width:40%;
+}
+.google{
+    width:40%;
+}
+.app-btn a{
+    margin-top:40px;
+    border:1px solid silver;
+
+    height:60px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+  background-color: #EEEEEE;
+  margin-right:5px;
+  margin-left:5px;
+}
+.app-btn a:hover{
+    cursor: pointer;
+}
+
+.ather{
+    width:100%;
+    height:600px;
+    background-color: #F5F5F5;
+    padding-top:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.store-wrapper{
+    width:50%;
+    float: left;
+    background-color: #F5F5F5;
+}
+
+.store{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background:white;
+    box-shadow: 0px 0px 0px 10px white;
+    border: dashed 2px silver;
+    width:65%;
+    float: right;
+    margin-right:30px;
+    text-align: center;
+}
+.delivery-wrapper{
+    width:50%;
+    float:left;
+    background-color: #F5F5F5;
+}
+.delivery{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: white;
+    box-shadow: 0px 0px 0px 10px white;
+    border: dashed 2px silver;
+    width:65%;
+    float:left;
+    margin-left:30px;
+    text-align: center;
+}
+.ather img{
+    width:50%;
+    display: inline-block;
+   
+}
+
+.ather a{
+    font-size: 25px;
+    display: block;
+}  
+.ather h2{
+    font-size: 30px;
+    
+}
+.ather a:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color:white;
+    width:100%;
+}
+
+.footer-logo{
+    font-size: 30px;
+   
+}
+
+.footer-list ul li{
+    list-style: none;
+    font-size: 25px;
+    line-height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin:50px;
+}
+.footer-app{
+
+    border:1px solid silver;
+    width:200px;
+    height:60px;
+    font-size: 25px;
+    display: inline-block;
+   text-align: center;
+    line-height: 60px;
+  background-color: #EEEEEE;
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.footer-app:hover{
+    cursor: pointer;
+}
